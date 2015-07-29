@@ -1,0 +1,135 @@
+li {
+	display: block;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+	display: block;	
+	color: black;
+}
+ul {
+	-webkit-padding-start: 0px;
+}
+
+.icon {
+	border: black 1px solid;
+    display: inline-block;
+	text-align: center;
+	padding: 5px;
+	width: 19.4%;
+	/*border: 3px solid black;*/
+	font-size: 60%;
+	color: #444;
+}
+.icon:hover, .icon:hover, .icon:hover, .icon:hover, .icon:hover {
+	color: #63B8FF;
+	text-decoration: none;
+}
+.nav-list {
+	background-color: #ffffff;
+	width: 100%;
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	padding: 0px;
+}
+.nav-word {
+	list-style-type: none;
+	color: black;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+@media screen and (min-width: 670px) {
+	body {
+		padding-bottom: -50px;
+		margin-bottom: -50px;
+	}
+	.about-h1 {
+		text-align: center;
+		margin: 0px 0px 0px 0px;
+		padding-bottom: 0px;
+	}
+	.top-about {
+		background:
+		linear-gradient(
+	      rgba(0, 0, 0, 0.5),
+	      rgba(0, 0, 0, 0.5)
+	    ), 
+		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10511411_10152543817773964_7253109175709038895_o.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+		/*-webkit-filter: blur(1.5px) grayscale(50%);*/
+	    padding: 200px;
+	    height: 100vh;
+	}
+	.top-about-text 	{
+		color: rgba(193, 190, 190, 0.9);
+	}
+	.step-1 {
+		background-color: rgba(153, 153, 153, 0.15);
+		background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.5),
+	      rgba(0, 0, 0, 0.5)
+	    ), 
+		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-frc3/t31.0-8/1399009_10151871245758964_2043855231_o.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    /*-webkit-filter: blur(1.5px) grayscale(50%);*/
+	    padding: 200px;
+	    height: 100vh;
+	}
+	.step-2 {
+		background-color: rgba(153, 153, 153, 0.15);
+		background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.5),
+	      rgba(0, 0, 0, 0.5)
+	    ),
+		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/414545_10151203692828964_550419573_o.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+   	    /*-webkit-filter: blur(1.5px) grayscale(50%);*/
+	    padding: 200px;
+	    height: 100vh;
+	}
+	.step-3 {
+		background-color: rgba(153, 153, 153, 0.15);
+		background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.5),
+	      rgba(0, 0, 0, 0.5)
+	    ),
+		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/737146_10151242574663964_1642673117_o.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    /*-webkit-filter: blur(1.5px) grayscale(50%);*/
+	    padding: 200px;
+	    height: 100vh;
+	}
+	.step-4 {
+		background-color: rgba(153, 153, 153, 0.15);
+		background: 
+		linear-gradient(
+	      rgba(0, 0, 0, 0.5),
+	      rgba(0, 0, 0, 0.5)
+	    ),
+		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/10492612_10155054661330481_4067499490169724085_n.jpg?oh=79cc8d6e80b8602877f5c92a57d8f2a5&oe=5644B540") no-repeat center center fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    /*-webkit-filter: blur(1.5px) grayscale(50%);*/
+	    padding: 200px;
+	    height: 100vh;
+	}
+}
