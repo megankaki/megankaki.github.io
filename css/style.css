@@ -1,135 +1,406 @@
-li {
-	display: block;
-	margin: 0 auto;
+.icon-fontawesome {
+	font-size: 23%;
 }
-a {
-	text-decoration: none;
-	display: block;	
-	color: black;
-}
-ul {
-	-webkit-padding-start: 0px;
+span {
+	font-size: 26px;
+    position: relative;
+    top: 50%;
+    line-height: 50px;
 }
 
-.icon {
-	border: black 1px solid;
-    display: inline-block;
-	text-align: center;
-	padding: 5px;
-	width: 19.4%;
-	/*border: 3px solid black;*/
-	font-size: 60%;
-	color: #444;
-}
-.icon:hover, .icon:hover, .icon:hover, .icon:hover, .icon:hover {
-	color: #63B8FF;
-	text-decoration: none;
-}
-.nav-list {
-	background-color: #ffffff;
-	width: 100%;
-	list-style-type: none;
-	display: inline-block;
-	text-align: center;
-	padding: 0px;
-}
-.nav-word {
-	list-style-type: none;
-	color: black;
-	font-size: 1.5em;
-	text-align: center;
-}
+/*====================================================*/
 
-@media screen and (min-width: 670px) {
-	body {
-		padding-bottom: -50px;
-		margin-bottom: -50px;
+/* run this CSS if the screen size is larger than 250px */
+@media only screen and (min-width: 500px) {
+
+	BODY { 
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		max-width: 100%;
+    	overflow-x: hidden;
+    	margin: 0;
+    	padding: 0;
 	}
-	.about-h1 {
+
+	.background {
+		background-image: url('images/coverphoto.jpg');
+		background-size: cover;
+		filter: blur(3px) grayscale(1);
+	  	-webkit-filter: blur(3px) grayscale(1);
+	  	left: 0;
+		position: relative;
+		background-position: 450px 0px;
+		right: 0;
+		z-index: 1;
+		height: 100vh;
+		width: 100vw;
+	}
+
+	.content {
+		position: absolute;
+		z-index: 2;
 		text-align: center;
-		margin: 0px 0px 0px 0px;
-		padding-bottom: 0px;
+		width: 100%;
+		top: 0vh;
+		height: 100vh;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		-webkit-animation: fadein 3.25s;
 	}
-	.top-about {
-		background:
-		linear-gradient(
-	      rgba(0, 0, 0, 0.5),
-	      rgba(0, 0, 0, 0.5)
-	    ), 
-		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10511411_10152543817773964_7253109175709038895_o.jpg") no-repeat center center fixed;
-		-webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-	    background-size: cover;
-		/*-webkit-filter: blur(1.5px) grayscale(50%);*/
-	    padding: 200px;
-	    height: 100vh;
+
+	.title {
+		top: 20vh;
+		position: relative;
 	}
-	.top-about-text 	{
-		color: rgba(193, 190, 190, 0.9);
+
+	.title H1 {
+		color: #89cff0;
+		font-size: 120px;
+		text-align: center;
+		font-weight: 700;
 	}
-	.step-1 {
-		background-color: rgba(153, 153, 153, 0.15);
-		background: 
-		linear-gradient(
-	      rgba(0, 0, 0, 0.5),
-	      rgba(0, 0, 0, 0.5)
-	    ), 
-		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-frc3/t31.0-8/1399009_10151871245758964_2043855231_o.jpg") no-repeat center center fixed;
-		-webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-	    background-size: cover;
-	    /*-webkit-filter: blur(1.5px) grayscale(50%);*/
-	    padding: 200px;
-	    height: 100vh;
+
+	.navigation {
+		top: 30vh;
+		position: relative;
+		text-align: center;
+		z-index: 1;
+		-webkit-animation: fadein 3.8s;
 	}
-	.step-2 {
-		background-color: rgba(153, 153, 153, 0.15);
-		background: 
-		linear-gradient(
-	      rgba(0, 0, 0, 0.5),
-	      rgba(0, 0, 0, 0.5)
-	    ),
-		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/414545_10151203692828964_550419573_o.jpg") no-repeat center center fixed;
-		-webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-	    background-size: cover;
-   	    /*-webkit-filter: blur(1.5px) grayscale(50%);*/
-	    padding: 200px;
-	    height: 100vh;
+
+	.logo {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		text-align: center;
+		position: absolute;
+		float: left;
+		border: 2px solid #89cff0;
+		border-radius: 1px;
+		width: 50px;
+		padding: 0 3px;
+		height: 50px;
+		margin: 1vh 2vw;
+		color: #eee;
+		font-size: 4vh;
+		background-image: url("images/arrow.png");
+		background-size: cover;
 	}
-	.step-3 {
-		background-color: rgba(153, 153, 153, 0.15);
-		background: 
-		linear-gradient(
-	      rgba(0, 0, 0, 0.5),
-	      rgba(0, 0, 0, 0.5)
-	    ),
-		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/737146_10151242574663964_1642673117_o.jpg") no-repeat center center fixed;
-		-webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-	    background-size: cover;
-	    /*-webkit-filter: blur(1.5px) grayscale(50%);*/
-	    padding: 200px;
-	    height: 100vh;
+
+	.logo:hover {
+		background-image: url("images/arrow2.png");
+		background-size: cover;
+		border: 2px solid #eee;
 	}
-	.step-4 {
-		background-color: rgba(153, 153, 153, 0.15);
-		background: 
-		linear-gradient(
-	      rgba(0, 0, 0, 0.5),
-	      rgba(0, 0, 0, 0.5)
-	    ),
-		url("https://scontent-lax1-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/10492612_10155054661330481_4067499490169724085_n.jpg?oh=79cc8d6e80b8602877f5c92a57d8f2a5&oe=5644B540") no-repeat center center fixed;
-		-webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-	    background-size: cover;
-	    /*-webkit-filter: blur(1.5px) grayscale(50%);*/
-	    padding: 200px;
-	    height: 100vh;
+
+
+	.navigation .navbox {
+		font-weight: 400;
+		text-align: center;
+		position: relative;
+		display: inline-block;
+		border: 3px solid #89cff0;
+		border-radius: 1px;
+		width: 215px;
+		height: 50px;
+		margin: 1vh 2vw;
+		color: #eee;
+		font-size: 25px; 
+	}
+	.navigation .navbox:hover {
+		border: 3px solid #eee;
+		cursor: pointer;
+		color: #89cff0;
+	}
+
+	.word {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+
+	HR {
+		width: 20vw;
+		-webkit-animation: fadein 3.5s;
+	}
+
+
+	.stripe2 {
+		top: 100vh;
+		height: 290vh;
+		width: 100vw;
+		position: absolute;
+	}
+
+	.stripe3 {
+		top: 390vh;
+		height: 110vh;
+		width: 100vw;
+		position: absolute;
+		background: black;
+	}
+
+	.stripe4 {
+		top: 500vh;
+		height: 90vh;
+		width: 100vw;
+		position: absolute;
+	}
+
+	.stripe2 .title {
+		top: 0vh;
+	}
+
+	.stripe3 .title {
+		top: 0vh;
+	}
+
+	.stripe4 .title {
+		top: 0vh;
+	}
+
+	.stripe3 .title H2 {
+		color: #eee;
+		font-weight: 400;
+		text-align: center;
+		font-family: 'lato', sans-serif;
+
+	}
+
+	.about-container {
+		top: 0vh;
+		margin: 0 auto;
+		padding-left: 3vw;
+		padding-right: 3vw;
+	}
+
+	.sample-container {
+		top: 0vh;
+		margin: 0 auto;
+		padding-left: 3vw;
+		padding-right: 3vw;
+	}
+
+	.stripe3 .about-pic {
+		background-size: 100%;
+		top: 5vh;
+		left: 0vw;
+		width: 40vw;
+		height: 60vh;
+		overflow: hidden;
+		position: absolute;
+		background-position: 0 -30px;
+		background: 3px solid;
+		border: 3px solid #89cff0;
+		border-radius: 1px;
+		background-image: url('images/profile.jpg');
+
+
+	}
+	.stripe3 .about-text {
+		top: 5vh;
+		right: 0vw;
+		width: 40vw;
+		height: 60vh;
+		font-size: 18px;
+		color: #eee;
+		font-weight: 300;
+		text-align: left;
+		font-family: 'lato', sans-serif;
+		position: absolute;
+
+	}
+
+	.title H2 {
+		font-size: 6vh;
+		color: #000;
+		font-weight: 400;
+		text-align: center;
+		font-family: 'lato', sans-serif;
+
+	}
+
+
+	.sticky {
+	    position: fixed;
+	    width: 100%;
+	    left: 0;
+	    top: 0;
+	    z-index: 100;
+	    border-top: 0;
+	    background: rgba(0,0,0,.5);
+	    -webkit-animation: fadein 3s;
+	}
+
+
+
+	.left-container {
+		width: 55vw;
+		height: 75vh;
+		position: absolute;
+		top: 5vh;
+		left: 0vw;
+		font-weight: 400;
+		font-family: 'lato', sans-serif;
+	}
+
+	.right-container {
+		width: 30vw;
+		height: 75vh;
+		position: absolute;
+		top: 5vh;
+		right: 0vw;
+	}
+
+	.sample-photo {
+		width: 55vw;
+		height: 27vw;
+		background-image: url("images/sample1photo.png");
+		background-size: cover;
+		overflow: hidden;
+		border: 2px solid #89cff0;
+	}
+
+	.sample-photo-2 {
+		width: 55vw;
+		height: 27vw;
+		background-image: url("images/sample2photo.png");
+		background-size: cover;
+		overflow: hidden;
+		border: 2px solid #89cff0;
+	}
+
+	.sample-photo-3 {
+		width: 55vw;
+		height: 27vw;
+		background-image: url("images/sample3photo.png");
+		background-size: cover;
+		overflow: hidden;
+		border: 2px solid #89cff0;
+	}
+
+	.sample-info {
+		display: inline-block;
+		width: 30vw;
+		height: auto;
+		font-size: 12px;
+		font-weight: 400;
+		font-family: 'lato', sans-serif;
+	}
+
+	.sample {
+		width: 90vw;
+		height: 75vh;
+		display: inline-block;
+		margin: 2vw;
+		margin-top: 0vw;
+		text-align: left;
+		position: relative;
+	}
+
+	.sample-title {
+		height: 7h;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+		bottom-margin: 10px;
+	}
+
+	.languages {
+		height: 5vh;
+		font-size: 12px;
+		font-weight: 400;
+		width: 100%;
+	}
+
+	.code {
+		margin-top: 10vh;
+		display: block;
+		width: 30vw;
+		font-size: 12px;
+	}
+	.code PRE {
+		font-size: 12px;
+		line-height: 12px;
+		overflow: auto;
+		background: rgba(0,0,0,.1);
+
+	}
+
+	.contact-form-container {
+		text-align: left;
+		width: 40%;
+		margin: 100px auto;
+		font-size: 30px;
+		font-family: 'lato'
+
+
+	}
+
+
+	.hide {
+		display: none;
+	}
+
+	.fadeintwo {
+		-webkit-animation: fadein 2s;
+
+	}
+
+	.fadeinthree {
+		-webkit-animation: fadein 3s;
+	}
+
+	.fadeinfour {
+		-webkit-animation: fadein 4s;
+	}
+
+	@keyframes fadein {
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}
+	@keyframes fadeout {
+	    from { opacity: 1; }
+	    to   { opacity: 0; }
+	}
+
+	a {
+		color: rgba(0,0,0,.7);
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #89cff0;
+		text-decoration: none;
+	}
+
+	.links {
+		display: inline-block;
+	}
+
+	.icon {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+
+	}
+	.icon:hover {
+		opacity: .7;
+		cursor: pointer;
+
+	}
+
+	.github {
+		background: url("images/githubmark.png");
+		background-size: cover;
+		overflow: hidden;
+
+
+	}
+
+	.link {
+		background: url("images/link.png");
+		background-size: cover;
+		overflow: hidden;
+
 	}
 }

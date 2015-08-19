@@ -2,88 +2,348 @@
 <html>
 <head>
 	<link rel="icon" type="favicon" href="megan.png">
-	<title>Megan Kakitsubo | Web Developer</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<title>Megan Kakitsubo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="js/script.js"></script>
+
+	<!-- Stylesheets for web & mobile -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Google font links-->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- JQuey -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-fixed-top">
-	<ul class="nav-list">
-		<div class="about icon">
-			<li class="fa fa-user fa-5x fa-fw"></li>
-			<li class="nav-word" style="font-family: 'Source Sans Pro', sans-serif;">About</li>
-		</div>
-		<div class="portfolio icon">
-			<li class="fa fa-folder-open fa-5x fa-fw"></li>
-			<li class="nav-word" style="font-family: 'Source Sans Pro', sans-serif;">Portfolio</li>
-		</div>
-		<div class="contact icon">
-			<li class="fa fa-envelope fa-5x fa-fw"></li>
-			<li class="nav-word" style="font-family: 'Source Sans Pro', sans-serif;">Contact</li>
-		</div>
-		<div class="Github icon">
-			<li class="fa fa-github fa-5x fa-fw"></li>
-			 <li class="nav-word" style="font-family: 'Source Sans Pro', sans-serif;;">Github</li>
-		</div>
-		<div class="Linkedin icon">
-			<li class="fa fa-linkedin fa-5x fa-fw"></li>
-			<li class="nav-word" style="font-family: 'Source Sans Pro', sans-serif;;">LinkedIn</li>
-		</div>
-	</ul>
-</nav>
 
-	
-	<div class="top-about">
-		<h1 class="top-about-text">About</h1>
-		<h2 class="about-h1 top-about-text">a full stack developer who is eager to create</h2>
+	<div class="background">
 	</div>
-			
-	<div class="step-1">
-		<h2>Portfolio</h2>
-		<h3>4 projects</h3>
-	</div>
-			
-	<div class="step-2" id="jump">
-		<h2>Contact</h2>
-		<h3>Contact me via email, phone, or reach out via the following social media outlets</h3>
-			<div class="row">
-				<div class="col-md-4"></div>
-					<div class="col-md-4 text-center">
-						<br />
-	  					<a href="#">Contact Me</a>
-					</div>
-					<div class="col-md-4"></div>
+	<div class="content">
+		<div class="top">
+			<div class="title">
+				<h1>Megan Kakitsubo</h1>
+				<br>
+				<hr>
 			</div>
-	</div>
-			
-	<div class="step-3 hand-jump">
-		<h2>Github</h2>
-		<h3>Look at my repositories</h3>
-			<div class="row">
-				<div class="col-md-4"></div>
-					<div class="col-md-4 text-center">
-						<br />
-						<a href="#">Github</a>
+			<div class="navigation">
+				<div class="logo hide">
+					<div class="word">
 					</div>
-					<div class="col-md-4"></div>
-			</div>
-	</div>
+				</div>
 
-	<div class="step-4">
-		<h2>LinkedIn</h2>
-		<h3>Check out my profile</h3>
-			<div class="row">
-				<div class="col-md-4"></div>
-					<div class="col-md-4 text-center">
-					<br />
-					<a href="#">LinkedIn</a>
+				<div class="navbox">
+					<div class="word work">
+						<div class="icon-fontawesome">
+							<li class="fa fa-folder-open fa-5x fa-fw"></li>
+								<span>WORK</span>
+						</div>
 					</div>
-					<div class="col-md-4"></div>
+				</div>
+				<div class="navbox">
+					<div class="word about">
+						<div class="icon-fontawesome">
+							<li class="fa fa-user fa-5x fa-fw"></li>
+								<span>ABOUT</span>
+						</div>
+					</div>
+				</div>
+				<div class="navbox">
+					<div class="word contact">
+						<div class="icon-fontawesome">
+							<li class="fa fa-envelope fa-5x fa-fw"></li>
+								<span id="contact-icon">CONTACT</span>
+						</div>
+					</div>
+				</div>
 			</div>
-	</div>
+		</div>
 
+		<div class="stripe2" id="work">
+			<div class="title">
+				<h2>
+					WORK
+				</h2>
+				<hr>
+				<div class="sample-container">
+					<div class = "sample sample1">
+						<div class="left-container">
+							<div class="sample-photo" onclick="window.open('https://tic-tac-toe-mk.firebaseapp.com/','_blank');" style="cursor: pointer;">
+							</div>
+							<div class="sample-title">
+								<h4>TIC TAC TOE - Musical Legos.</h4>
+
+							</div>
+							<div class="languages">
+								<i> HTML5 CSS3 Javascript AngularJS Firebase </i>
+							</div>
+							<div class="links">
+								<div class="github icon" onclick="window.open('https://github.com/megankaki/TTT_angular','_blank');">
+								</div>
+								<div class="link icon" onclick="window.open('https://tictacyow.firebaseapp.com','_blank');" >
+								</div>
+							</div>
+						</div>
+
+						<div class="right-container">
+							<div class ="sample-info">
+								<h4> About This Project</h4>
+								This was my first project and a fun introductory learning experience with Javascript & Angular. I enjoyed implementing different sounds to each cell in order to simulate the feeling of mixing music as observed with EDM while also playing Lego; my favorite childhood game.
+							</div>
+							<div class="code">
+								<h4> Favorite Bit of Code</h4>
+								<pre><code>	function winner(){
+	console.log("I'm a winner!")
+		if ( ((self.square[0]=="x") && (self.square[1]=="x") && (self.square[2])=="x") ||
+			((self.square[3]=="x") && (self.square[4]=="x") && (self.square[5])=="x") || 
+			((self.square[6]=="x") && (self.square[7]=="x") && (self.square[8])=="x") || 
+			((self.square[0]=="x") && (self.square[3]=="x") && (self.square[6])=="x") || 
+			((self.square[1]=="x") && (self.square[4]=="x") && (self.square[7])=="x") || 
+			((self.square[2]=="x") && (self.square[5]=="x") && (self.square[8])=="x") || 
+			((self.square[0]=="x") && (self.square[4]=="x") && (self.square[8])=="x") || 
+			((self.square[2]=="x") && (self.square[4]=="x") && (self.square[6])=="x") )  {
+ 			alert("Player 1 Wins!");
+ 			self.p1score++;
+ 			self.clearBoard();
+		} else if
+			( ((self.square[0]=="o") && (self.square[1]=="o") && (self.square[2])=="o") ||
+			((self.square[3]=="o") && (self.square[4]=="o") && (self.square[5])=="o") || 
+			((self.square[6]=="o") && (self.square[7]=="o") && (self.square[8])=="o") || 
+			((self.square[0]=="o") && (self.square[3]=="o") && (self.square[6])=="o") || 
+			((self.square[1]=="o") && (self.square[4]=="o") && (self.square[7])=="o") || 
+			((self.square[2]=="o") && (self.square[5]=="o") && (self.square[8])=="o") || 
+			((self.square[0]=="o") && (self.square[4]=="o") && (self.square[8])=="o") || 
+			((self.square[2]=="o") && (self.square[4]=="o") && (self.square[6])=="o") )  {
+			alert("Player 2 Wins!")
+			self.p2score++;
+			self.clearBoard();
+		} else if (self.playerTurn == 9){
+			alert("It's a tie!");
+			clearBoard();
+		}
+	}</code></pre>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class = "sample sample2">
+						<div class="left-container">
+							<div class="sample-photo-2" onclick="window.open('http://theslinky.herokuapp.com/','_blank');" style="cursor: pointer;">
+							</div>
+							<div class="sample-title">
+								<h4>The Slinky</h4>
+							</div>
+							<div class="languages">
+								<i>Ruby Rails Jquery Postgres HTML5 CSS3 Javascript Heroku</i>
+							</div>
+							<div class="links">
+								<div class="github icon" onclick="window.open('https://github.com/Persuasia/slinky1','_blank');">
+								</div>
+								<div class="link icon" onclick="window.open('http://45.55.9.212','_blank');">
+								</div>
+							</div>	
+						</div>
+						<div class="right-container">
+							<div class ="sample-info">
+								<h4> About This Project</h4>
+								We created Slinky as a location based search for professionals that want to network. Whether it be a web developer or a chef, users would be able to find other professionals in proxmity to them, with the ability to bookmark their progiles and contact them. This project was built in Rails, with utilization of several technologies, including but not limited to: Google Maps, AWS, and Heroku. 
+							</div>
+							<div class="code">
+								<h4> Favorite Bit of Code</h4>
+								<pre><code>
+class << self
+		def from_omniauth(auth_hash)
+			user = find_or_create_by(uid: auth_hash['uid'], provider: auth_hash['provider'])
+			user.name = auth_hash["info"]['name']
+			user.first_name = auth_hash["info"]['first_name']
+			user.last_name = auth_hash["info"]['last_name']
+			user.description = auth_hash["info"]['description']
+			user.email = auth_hash["info"]['email']
+			user.username = auth_hash["info"]['nickname']
+			user.location = auth_hash['info']['location']['name']
+			user.country = auth_hash['info']['location']['country']['code']
+			user.image_url = auth_hash["info"]['image']
+			user.url = auth_hash['info']['urls']['public_profile']
+		    user.save!
+		    user
+		end
+	end
+</code></pre>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class = "sample sample3">
+						<div class="left-container">
+							<div class="sample-photo-3" onclick="window.open('https://travizi.herokuapp.com/','_blank');" style="cursor: pointer;">
+							</div>
+							<div class="sample-title">
+							<h4>TRAVIZI - Hotel Booking Made Simple.</h4>
+							</div>
+							<div class="languages">
+							<i> Ruby Rails JQuery Postgres HTML5 CSS3 Javascript Heroku </i>
+							</div>
+							<div class="links">
+								<div class="github icon" onclick="window.open('https://github.com/megankaki/Travizi','_blank');">
+								</div>
+								<div class="link icon" onclick="window.open('https://travizi.herokuapp.com/','_blank');">
+								</div>
+							</div>
+						</div>
+						<div class="right-container">
+							<div class ="sample-info">
+								<h4> About This Project</h4>
+								We created Travizi with user experience and design in mind. In the day and age where AirBnB (and its beautiful UX) rules, we wanted to create a hotel booking site with emphasis on hotel photos, ease of navigation and accessibility. This project is built in Rails, extensively utilizing Expedia's EAN (hotel booking) API. The application was launched on Heroku on July 17th and is currently in alpha stage of development.
+							</div>
+							<div class="code">
+								<h4> Favorite Bit of Code</h4>
+								<pre><code>
+##JQuery function which sticks amenity sidebar to top of screen
+$(function(){ // document ready
+  var stickyTop = $('.amenity-sidebar').offset().top; // returns number 
+  $(window).scroll(function(){ // scroll event  
+    var windowTop = $(window).scrollTop(); // returns number
+    if (stickyTop < (windowTop*1.08)) {
+      $('.amenity-sidebar').css({ position: 'fixed', top: '51px', right: '2vw'});
+    }
+    else {
+      $('.amenity-sidebar').css({ position: 'relative', top: '-7vh', right: '2vw'});
+    }
+  });
+});
+</code></pre>
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+		<div class="stripe3" id="about">
+			<div class="title">
+				<h2>
+					ABOUT
+				</h2>
+				<hr>
+				<div class="about-container">
+					<div class="sample">
+						<div class="about-pic">
+						</div>
+						<div class="about-text">
+							I love creating. Creating simple can be challenging, but being able to make something that people find aesthetically pleasing and easy to use are important to me. I want to create solutions to everyday problems, elegantly. Some of my favorite languages and frameworks are Ruby, Rails, Javascript, CSS3, HTML5, Ionic, and Angular.<br><br>
+							I was born and raised in San Diego and graduated from UC Riverside in 2010 with a degree in business administration. After college, I worked in residential and commercial real estate for five years.<br><br>
+							On my free time, I enjoy landscape and street photography, playing basketball, doodling, skateboarding, and playing with my dog Penny. 	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="stripe4" id="contact">
+			<div class="title">
+				<h2>
+					CONTACT
+				</h2>
+				<hr>
+
+			</div>
+
+			<div class="contact-form-container">
+				<p>
+				Megan Kakitsubo
+				<br>
+				Westwood, CA
+				<br>
+				United States
+				<br>
+				</p>
+				<p>
+				Phone
+				<a href="tel:6192545885">310 709 7240</a>
+				<br>
+				Email
+				<a href="mailto:megankaki@gmail.com">megankaki@gmail.com</a>
+				<br>
+				Github
+				<!-- <div class="icon-fontawesome" onclick="window.open('https://www.github.com/megankaki');">
+					<li class="fa fa-github fa-5x fa-fw"></li>
+				</div> -->
+				<a href="https://www.github.com/megankaki">github.com/megankaki</a>
+				<br>
+				LinkedIn
+				<!-- <div class="icon-fontawesome" 
+				onclick="window.open('https://www.linkedin.com/in/megankaki');">
+					<li class="fa fa-linkedin fa-5x fa-fw"></li>
+				</div> -->
+				<a href="https://www.linkedin.com/in/megankaki">linkedin.com/in/megankaki</a>
+				</p>
+			</div>
+			<div class="contact-links-container">
+			</div>
+
+		</div>
+
+	</div>
 </body>
 </html>
+<script>
+
+
+
+$(function(){ // document ready
+	var stickyNavTop = $('.navigation').offset().top; 
+	var stickyNav = function(){
+	var scrollTop = $(window).scrollTop();
+	      
+	if (scrollTop > stickyNavTop) { 
+	    $('.navigation').addClass('sticky');
+	    $('.logo').removeClass('hide');
+	    $('.logo').addClass('fadenintwo');
+	} else {
+	    $('.navigation').removeClass('sticky');
+	    $('.logo').addClass('hide');
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+	    stickyNav();
+	});
+});
+
+
+$(".logo").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".top").offset().top - $('.navigation').outerHeight()},
+        'slow');
+        $('.top').removeClass('fadeintwo');
+		setTimeout( function(){
+			$('.top').addClass('fadeintwo')}
+    , 1)
+});
+
+$(".work").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#work").offset().top - $('.navigation').outerHeight()},
+        'slow');
+});
+
+$(".about").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#about").offset().top - $('.navigation').outerHeight()},
+        'slow');
+});
+
+$(".contact").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contact").offset().top - $('.navigation').outerHeight()},
+        'slow');
+});
+
+
+
+</script>
+
+
+
