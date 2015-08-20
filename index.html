@@ -92,36 +92,18 @@
 							</div>
 							<div class="code">
 								<h4> Favorite Bit of Code</h4>
-								<pre><code>	function winner(){
-	console.log("I'm a winner!")
-		if ( ((self.square[0]=="x") && (self.square[1]=="x") && (self.square[2])=="x") ||
-			((self.square[3]=="x") && (self.square[4]=="x") && (self.square[5])=="x") || 
-			((self.square[6]=="x") && (self.square[7]=="x") && (self.square[8])=="x") || 
-			((self.square[0]=="x") && (self.square[3]=="x") && (self.square[6])=="x") || 
-			((self.square[1]=="x") && (self.square[4]=="x") && (self.square[7])=="x") || 
-			((self.square[2]=="x") && (self.square[5]=="x") && (self.square[8])=="x") || 
-			((self.square[0]=="x") && (self.square[4]=="x") && (self.square[8])=="x") || 
-			((self.square[2]=="x") && (self.square[4]=="x") && (self.square[6])=="x") )  {
- 			alert("Player 1 Wins!");
- 			self.p1score++;
- 			self.clearBoard();
-		} else if
-			( ((self.square[0]=="o") && (self.square[1]=="o") && (self.square[2])=="o") ||
-			((self.square[3]=="o") && (self.square[4]=="o") && (self.square[5])=="o") || 
-			((self.square[6]=="o") && (self.square[7]=="o") && (self.square[8])=="o") || 
-			((self.square[0]=="o") && (self.square[3]=="o") && (self.square[6])=="o") || 
-			((self.square[1]=="o") && (self.square[4]=="o") && (self.square[7])=="o") || 
-			((self.square[2]=="o") && (self.square[5]=="o") && (self.square[8])=="o") || 
-			((self.square[0]=="o") && (self.square[4]=="o") && (self.square[8])=="o") || 
-			((self.square[2]=="o") && (self.square[4]=="o") && (self.square[6])=="o") )  {
-			alert("Player 2 Wins!")
-			self.p2score++;
-			self.clearBoard();
-		} else if (self.playerTurn == 9){
-			alert("It's a tie!");
-			clearBoard();
+								<pre><code>setTimeout(function(){
+	for (var i=1; i< self.whatever.gridList.length; i+=1){
+		if (self.whatever.gridList[i].value == "x"){
+			self.soundArrayX[i].play()
+			break;
 		}
-	}</code></pre>
+		if (self.whatever.gridList[i].value == "o"){
+			self.soundArrayO[i].play()
+			break;
+		}				
+	}
+	}, 1000);</code></pre>
 							</div>
 						</div>
 					</div>
@@ -151,23 +133,21 @@
 							<div class="code">
 								<h4> Favorite Bit of Code</h4>
 								<pre><code>
-class << self
-		def from_omniauth(auth_hash)
-			user = find_or_create_by(uid: auth_hash['uid'], provider: auth_hash['provider'])
-			user.name = auth_hash["info"]['name']
-			user.first_name = auth_hash["info"]['first_name']
-			user.last_name = auth_hash["info"]['last_name']
-			user.description = auth_hash["info"]['description']
-			user.email = auth_hash["info"]['email']
-			user.username = auth_hash["info"]['nickname']
-			user.location = auth_hash['info']['location']['name']
-			user.country = auth_hash['info']['location']['country']['code']
-			user.image_url = auth_hash["info"]['image']
-			user.url = auth_hash['info']['urls']['public_profile']
-		    user.save!
-		    user
-		end
-	end
+def from_omniauth(auth_hash)
+	user = find_or_create_by(uid: auth_hash['uid'], provider: auth_hash['provider'])
+	user.name = auth_hash["info"]['name']
+	user.first_name = auth_hash["info"]['first_name']
+	user.last_name = auth_hash["info"]['last_name']
+	user.description = auth_hash["info"]['description']
+	user.email = auth_hash["info"]['email']
+	user.username = auth_hash["info"]['nickname']
+	user.location = auth_hash['info']['location']['name']
+	user.country = auth_hash['info']['location']['country']['code']
+	user.image_url = auth_hash["info"]['image']
+	user.url = auth_hash['info']['urls']['public_profile']
+    user.save!
+    user
+end
 </code></pre>
 							</div>
 						</div>
