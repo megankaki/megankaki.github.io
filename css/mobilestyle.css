@@ -1,4 +1,4 @@
-@media only screen and (min-width: 767px) and (orientation: portrait) {
+@media only screen and (orientation: portrait) {
 	BODY { 
 		font-family: 'Raleway', sans-serif;
 		font-weight: 700;
