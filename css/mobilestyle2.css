@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) and (orientation: portrait) {
+@media only screen and (max-width: 767px) and (orientation: landscape) {
 	BODY { 
 		font-family: 'Raleway', sans-serif;
 		font-weight: 700;
@@ -15,7 +15,6 @@
 	  	-webkit-filter: blur(3px) grayscale(0.6);
 	  	left: 0;
 		position: relative;
-		background-position: -150px 0px;
 		right: 0;
 		z-index: 1;
 		height: 100vh;
@@ -42,13 +41,12 @@
 
 	.title H1 {
 		color: #89cff0;
-		font-size: 16vw;
+		font-size: 10vw;
 		text-align: center;
 		font-weight: 700;
 	}
 
 	.navigation {
-		top: 35vh;
 		position: relative;
 		text-align: center;
 		z-index: 1;
@@ -125,7 +123,7 @@
 	}
 
 	.stripe3 .title H2 {
-		font-size: 10vh;
+		font-size: 6vh;
 		color: #eee;
 		font-weight: 400;
 		text-align: center;
@@ -149,32 +147,34 @@
 
 	.stripe3 .about-pic {
 		background-size: 100%;
-		width: 100%;
-		height: 50%;
+		top: 5vh;
+		left: 0vw;
+		width: 40vw;
+		height: 60vh;
 		overflow: hidden;
-		display: block;
-		background-position: 0 -25px;
-		border: 2px solid #89cff0;
+		position: absolute;
+		background-position: 0 -30px;
+		background: 3px solid;
+		border: 3px solid #89cff0;
 		border-radius: 1px;
-		background-image: url('../megan.png');
-
-
+		background-image: url('images/profile.jpg');
 	}
 	.stripe3 .about-text {
-		top: 4vh;
-		width: 100%;
+		top: 5vh;
+		right: 0vw;
+		width: 40vw;
 		height: 60vh;
-		font-size: 2vh;
+		font-size: 13px;
 		color: #eee;
-		font-weight: 400;
+		font-weight: 300;
 		text-align: left;
 		font-family: 'lato', sans-serif;
-		position: relative
+		position: absolute;
 
 	}
 
 	.title H2 {
-		font-size: 17vw;
+		font-size: 6vw;
 		color: #000;
 		font-weight: 400;
 		text-align: center;
@@ -245,7 +245,7 @@
 		display: inline-block;
 		width: 100%;
 		height: auto;
-		font-size: 1.5vh;
+		font-size: 2.3vh;
 		font-weight: 400;
 		font-family: 'lato', sans-serif;
 	}
@@ -287,7 +287,7 @@
 		text-align: left;
 		width: 70%;
 		margin: 0 auto;
-		font-size: 3vh;
+		font-size: 4vh;
 		font-family: 'lato'
 
 
@@ -336,8 +336,8 @@
 
 	.icon {
 		display: inline-block;
-		width: 25px;
-		height: 25px;
+		width: 17px;
+		height: 17px;
 
 	}
 	.icon:hover {
