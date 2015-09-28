@@ -41,7 +41,7 @@
 	}
 
 	.title H1 {
-		color: #F9CC62;	
+		color: #89cff0;
 		font-size: 16vw;
 		text-align: center;
 		font-weight: 700;
@@ -64,7 +64,7 @@
 		text-align: center;
 		position: relative;
 		display: inline-block;
-		border: 2px solid #F9CC62;
+		border: 2px solid #89cff0;
 		border-radius: 1px;
 		width: 25vw;
 		height: 6vh;
@@ -75,7 +75,7 @@
 	.navigation .navbox:hover {
 		border: 2px solid #eee;
 		cursor: pointer;
-		color: #F9CC62;
+		color: #89cff0;
 	}
 
 	.word {
@@ -154,7 +154,7 @@
 		overflow: hidden;
 		display: block;
 		background-position: 0 -30px;
-		border: 2px solid #F9CC62;
+		border: 2px solid #89cff0;
 		border-radius: 1px;
 		background-image: url('../megan.png');
 
@@ -216,7 +216,7 @@
 		background-image: url("images/sample1photo.png");
 		background-size: cover;
 		overflow: hidden;
-		border: 2px solid #F9CC62;
+		border: 2px solid #89cff0;
 		background-position: 1080px 0px;
 
 	}
@@ -227,7 +227,7 @@
 		background-image: url("images/sample2photo.png");
 		background-size: cover;
 		overflow: hidden;
-		border: 2px solid #F9CC62;
+		border: 2px solid #89cff0;
 		background-position: -10px 0px;
 	}
 
@@ -238,7 +238,7 @@
 		background-size: cover;
 		overflow: hidden;
 		background-position: -160px 0px;
-		border: 2px solid #F9CC62;
+		border: 2px solid #89cff0;
 	}
 
 	.sample-info {
@@ -326,7 +326,7 @@
 	}
 
 	a:hover {
-		color: #F9CC62;
+		color: #89cff0;
 		text-decoration: none;
 	}
 
