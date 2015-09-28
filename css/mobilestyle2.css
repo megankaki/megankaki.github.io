@@ -164,7 +164,7 @@
 		right: 0vw;
 		width: 40vw;
 		height: 60vh;
-		font-size: 3.5vh;
+		font-size: 3.8vh;
 		color: #eee;
 		font-weight: 300;
 		text-align: left;
@@ -274,7 +274,7 @@
 
 	.languages {
 		height: 5vh;
-		font-size: 2.5vh;
+		font-size: 3vh;
 		font-weight: 400;
 		width: 100%;
 		position:; relative
@@ -340,8 +340,8 @@
 
 	.icon {
 		display: inline-block;
-		width: 25px;
-		height: 25px;
+		width: 35px;
+		height: 35px;
 
 	}
 	.icon:hover {
