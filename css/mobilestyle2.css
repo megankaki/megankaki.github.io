@@ -164,7 +164,7 @@
 		right: 0vw;
 		width: 40vw;
 		height: 60vh;
-		font-size: 3.8vh;
+		font-size: 3.9vh;
 		color: #eee;
 		font-weight: 300;
 		text-align: left;
@@ -174,7 +174,7 @@
 	}
 
 	.title H2 {
-		font-size: 6vw;
+		font-size: 6vh;
 		color: #000;
 		font-weight: 400;
 		text-align: center;
@@ -249,9 +249,13 @@
 		display: inline-block;
 		width: 100%;
 		height: auto;
-		font-size: 3.5vh;
+		font-size: 3.7vh;
 		font-weight: 400;
 		font-family: 'lato', sans-serif;
+	}
+
+	.sample-info H4 {
+		margin-top: 0;
 	}
 
 	.sample {
@@ -271,10 +275,13 @@
 		bottom-margin: 10px;
 		position: relative;
 	}
+	.sample-title H4 {
+		font-size: 4.5vh;
+	}
 
 	.languages {
 		height: 5vh;
-		font-size: 3vh;
+		font-size: 3.5vh;
 		font-weight: 400;
 		width: 100%;
 		position:; relative
@@ -291,7 +298,7 @@
 		text-align: left;
 		width: 70%;
 		margin: 0 auto;
-		font-size: 4.7vh;
+		font-size: 5vh;
 		font-family: 'lato'
 
 
