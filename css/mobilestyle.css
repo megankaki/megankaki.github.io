@@ -1,4 +1,4 @@
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 720px) {
 	BODY { 
 		font-family: 'Raleway', sans-serif;
 		font-weight: 700;
@@ -15,7 +15,7 @@
 	  	-webkit-filter: blur(3px) grayscale(0.6);
 	  	left: 0;
 		position: relative;
-		background-position: 640px 0px;
+		background-position: -150px 0px;
 		right: 0;
 		z-index: 1;
 		height: 100vh;
